@@ -8,13 +8,13 @@
 
     <script src="js/script.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/stylo.css">
 
 </head>
 <body>
-
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Campus de Robotica</a>
+          <a class="navbar-brand h1" href="#">Campus de Robotica</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -28,102 +28,180 @@
           </div>
         </div>
       </nav>
-
-
     <div class="container">
         <h3>Guia de trabajos prácticos</h3>
-        
+        <br>
         <div class="row">
-             <div class="input-group">
-                <span class="input-group-text">Primer ejercicio:</span>
-                <input type="text" aria-label="First name" class="form-control">
-                <input type="text" aria-label="Last name" class="form-control">
-                <button class="btn btn-primary" type="submit">Accion</button>
+          <div class="input-group"> 
+            <span class="h5">Primer ejercicio:  </span>
+          </div> 
+            <div class="input-group">
+                
+                <span class="input-group-text">Mostrar el mensaje "hola mundo"</span>
+                <button class="btn btn-primary" id="primer_ejercicio_boton" type="submit">Imprimir</button>
+                <div  class="input-group-text bg-danger text-white" id="primer_ejercicio_div"> </div>
               </div>
         </div>
         <br> 
         <div class="row">
+          <div class="input-group"> 
+            <span class="h5">Segundo ejercicio:  </span>
+        </div>
           <div class="input-group">
-             <span class="input-group-text">Segundo ejercicio:</span>
-             <input type="text" aria-label="First name" class="form-control">
-             <input type="text" aria-label="Last name" class="form-control">
-             <button class="btn btn-primary" type="submit">Accion</button>
+             
+             <span class="input-group-text"> Ingrese su nombre:</span>
+             <input type="text" aria-label="First name" class="form-control" id="texto_ejercicio_1">
+             <button class="btn btn-primary" id="segundo_ejercicio_boton" type="submit">Imprimir</button>
+             <div  class="input-group-text bg-danger text-white" id="segundo_ejercicio_div"> </div>
            </div>
         </div>
         <br> 
         <div class="row">
+          <div class="input-group"> 
+              <span class="h5">Tercer ejercicio:  </span>
+          </div>
           <div class="input-group">
-             <span class="input-group-text">Tercer ejercicio:</span>
-             <input type="text" aria-label="First name" class="form-control">
-             <input type="text" aria-label="Last name" class="form-control">
-             <button class="btn btn-primary" type="submit">Accion</button>
+             
+             <span class="input-group-text">Ingrese su nombre:</span>
+             <input type="text" aria-label="First name" id="texto_ejercicio_2_1" class="form-control">
+             <span class="input-group-text">Ingrese su apellido:</span>
+             <input type="text" aria-label="Last name" id="texto_ejercicio_2_2" class="form-control">
+             <button class="btn btn-primary" id="tercer_ejercicio_boton" type="submit">Imprimir</button>
+             
            </div>
+              <div class="input-group">
+                <div  class="input-group-text bg-danger text-white" id="tercer_ejercicio_div"> Hola... </div>
+              </div>
         </div>
         <br> 
         <div class="row">
+          <div class="input-group"> 
+            <span class="h5">Cuarto ejercicio:  </span>
+          </div>
           <div class="input-group">
-             <span class="input-group-text">Cuarto ejercicio:</span>
-             <input type="text" aria-label="First name" class="form-control">
-             <input type="text" aria-label="Last name" class="form-control">
-             <button class="btn btn-primary" type="submit">Accion</button>
+            <span class="input-group-text">Ingrese su nombre:</span>
+            <input type="text" aria-label="First name" id="texto_ejercicio_3_1" class="form-control">
+            <span class="input-group-text">Ingrese su apellido:</span>
+            <input type="text" aria-label="Last name" id="texto_ejercicio_3_2" class="form-control">
+            <span class="input-group-text">Edad:</span>
+            <input type="text" aria-label="Last name" id="texto_ejercicio_3_3" class="form-control">
+             <button class="btn btn-primary" id="cuarto_ejercicio_boton" type="submit">Imprimir</button>
            </div>
+           <div class="input-group">
+            <div  class="input-group-text bg-danger text-white" id="cuarto_ejercicio_div"> Hola... </div>
+          </div>
         </div>
         <br> 
         <div class="row">
+          <div class="input-group"> 
+            <span class="h5">Quinto ejercicio:  </span>
+          </div>
           <div class="input-group">
-             <span class="input-group-text">Quinto ejercicio:</span>
-             <input type="text" aria-label="First name" class="form-control">
-             <input type="text" aria-label="Last name" class="form-control">
-             <button class="btn btn-primary" type="submit">Accion</button>
+            <span class="input-group-text">Ingrese un número:</span>
+            <input type="text" aria-label="First name" id="texto_ejercicio_5_1" class="form-control">
+            <span class="input-group-text">Ingrese otro número:</span>
+            <input type="text" aria-label="Last name" id="texto_ejercicio_5_2" class="form-control">
+             <button class="btn btn-primary" id="quinto_ejercicio_boton" type="submit">Calcular</button>
            </div>
+           <div class="input-group">
+            <div  class="input-group-text bg-danger text-white" id="quinto_ejercicio_div"> Hola... </div>
+          </div>
         </div>
         <br> 
         <div class="row">
+         <div class="input-group"> 
+            <span class="h5">Sexto ejercicio:  </span>
+          </div>
           <div class="input-group">
-             <span class="input-group-text">Sexto ejercicio:</span>
-             <input type="text" aria-label="First name" class="form-control">
-             <input type="text" aria-label="Last name" class="form-control">
-             <button class="btn btn-primary" type="submit">Accion</button>
+             
+            <span class="input-group-text">Ingrese su nombre:</span>
+            <input type="text" aria-label="First name" id="texto_ejercicio_6_1" class="form-control">
+            <span class="input-group-text">Ingrese su apellido:</span>
+            <input type="text" aria-label="Last name" id="texto_ejercicio_6_2" class="form-control">
+            <span class="input-group-text">Año de nacimiento:</span>
+            <input type="text" aria-label="aaa" id="texto_ejercicio_6_3" class="form-control">
+             <button class="btn btn-primary" id="sexto_ejercicio_boton" type="submit">Calcular</button>
            </div>
+           <div class="input-group">
+            <div  class="input-group-text bg-danger text-white" id="sexto_ejercicio_div"> Hola... </div>
+          </div>
         </div>
         <br> 
         <div class="row">
+          <div class="input-group"> 
+            <span class="h5">Septimo ejercicio:  </span>
+          </div>
           <div class="input-group">
-             <span class="input-group-text">Septimo ejercicio:</span>
-             <input type="text" aria-label="First name" class="form-control">
-             <input type="text" aria-label="Last name" class="form-control">
-             <button class="btn btn-primary" type="submit">Accion</button>
+            <span class="input-group-text">Ingrese la cantidad de alumnos:</span>
+            <input type="text" aria-label="First name" id="texto_ejercicio_7_1" class="form-control">
+             <button class="btn btn-primary" id="septimo_ejercicio_boton" type="submit">Calcular</button>
            </div>
+           <div class="input-group">
+            <div  class="input-group-text bg-danger text-white" id="septimo_ejercicio_div"> Hola... </div>
+          </div>
         </div>
         <br> 
         <div class="row">
+          <div class="input-group"> 
+            <span class="h5">Octavo ejercicio:  </span>
+          </div>
           <div class="input-group">
-             <span class="input-group-text">Octavo ejercicio:</span>
-             <input type="text" aria-label="First name" class="form-control">
-             <input type="text" aria-label="Last name" class="form-control">
-             <button class="btn btn-primary" type="submit">Accion</button>
+             
+            <span class="input-group-text">Cantidad de alumnos:</span>
+            <input type="text" aria-label="First name" id="texto_ejercicio_8_1" class="form-control">
+            <span class="input-group-text">Cantidad de profesoras:</span>
+            <input type="text" aria-label="Last name" id="texto_ejercicio_8_2" class="form-control">
+            <span class="input-group-text">Cantidad de profesores:</span>
+            <input type="text" aria-label="aaa" id="texto_ejercicio_8_3" class="form-control">
+             <button class="btn btn-primary" id="octavo_ejercicio_boton" type="submit">Calcular</button>
            </div>
+           <div class="input-group">
+            <div  class="input-group-text bg-danger text-white" id="octavo_ejercicio_div"> Hola... </div>
+          </div>
         </div>
         <br> 
         <div class="row">
+          <div class="input-group"> 
+            <span class="h5">Noveno ejercicio:  </span>
+          </div>
           <div class="input-group">
-             <span class="input-group-text">Noveno ejercicio:</span>
-             <input type="text" aria-label="First name" class="form-control">
-             <input type="text" aria-label="Last name" class="form-control">
-             <button class="btn btn-primary" type="submit">Accion</button>
+            <span class="input-group-text">Monto para la semana:</span>
+            <input type="text" aria-label="First name" id="texto_ejercicio_9_1" class="form-control">
+             <button class="btn btn-primary" id="noveno_ejercicio_boton" type="submit">Calcular</button>
            </div>
+           <div class="input-group">
+            <div  class="input-group-text bg-danger text-white" id="noveno_ejercicio_div"> Hola... </div>
+          </div>
         </div>
         <br> 
         <div class="row">
+          <div class="input-group"> 
+            <span class="h5">Decimo ejercicio:  </span>
+          </div>
           <div class="input-group">
-             <span class="input-group-text">Decimo ejercicio:</span>
-             <input type="text" aria-label="First name" class="form-control">
-             <input type="text" aria-label="Last name" class="form-control">
-             <button class="btn btn-primary" type="submit">Accion</button>
+             
+             <span class="input-group-text">Primer número:</span>
+            <input type="text" aria-label="First name" id="texto_ejercicio_10_1" class="form-control">
+            <span class="input-group-text">Segundo número:</span>
+            <input type="text" aria-label="Last name" id="texto_ejercicio_10_2" class="form-control">
+            <span class="input-group-text">Tercer número:</span>
+            <input type="text" aria-label="aaa" id="texto_ejercicio_10_3" class="form-control">
+             <button class="btn btn-primary" id="decimo_ejercicio_boton" type="submit">Calcular promedio</button>
            </div>
+           <div class="input-group">
+            <div  class="input-group-text bg-danger text-white" id="decimo_ejercicio_div"> Hola... </div>
+          </div>
         </div>
 
     </div>
-    
+    <footer>
+            <div class="row" style="padding: 50px;">
+              <div class="flex-container"></div>
+                <div class="d-flex justify-content-center bg-dark text-white" style="padding: 10px;">
+                  <p>Copyright © 2021. Campus de Robótica.</p>
+                </div>
+              </div>   
+          </div>
+      </footer>
 </body>
 </html>
